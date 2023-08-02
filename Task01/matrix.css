@@ -1,0 +1,106 @@
+body{
+    background-color: #2E2E36;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.top-header{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.top-header img{
+max-height: 80px;
+padding: 20px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1C29;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header a{
+    display: block;
+    padding: 20px 100px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #eee;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.header a:hover{
+    color: #F5AB0F;
+}
+.card{
+    display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 50px;
+        text-align: center;
+        margin: 50px;
+}
+.section{
+    background-color: #eee;
+    padding: 30px;
+    transition:.4s ;
+    box-shadow: #2E2E36;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    -webkit-transition:.4s ;
+    -moz-transition:.4s ;
+    -ms-transition:.4s ;
+    -o-transition:.4s ;
+}
+.section:hover{
+    background-color: #F5C63D;
+    
+}
+.card img{
+    height: 80px;
+}
+
+.offer-section{
+    margin: 200px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.offer-section .text{
+    margin-right: 150px;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 27px;
+}
+.offer-section .text h1{
+    letter-spacing: 5px;
+}
+.offer-section img{
+    max-width: 600px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+footer{
+    background-color: #1E1C29;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin:0;
+    letter-spacing: 2px;
+}
