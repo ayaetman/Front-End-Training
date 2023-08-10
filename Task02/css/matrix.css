@@ -1,0 +1,188 @@
+*{
+    --main-color:#ecb01a;
+}
+body{
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Fraunces', serif;
+}
+ul{
+    list-style: none;
+}
+.header{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.768);
+height: 90px;
+justify-content: space-between;
+padding-top: 10px;
+}
+
+.header img{
+    max-width: 80%;
+}
+
+.header ul{
+    display: flex;
+    position: relative;
+}
+.header a{
+    text-decoration: none;
+    padding: 50px;
+    color:rgba(0, 0, 0, 0.726);
+    font-weight: bold;
+    font-family: 'fa', sans-serif;
+}
+.header a:hover{
+    color: var(--main-color);
+}
+.landing{
+    background-image: url(../images/muscle-muscle-bodybuilding-press-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    position: relative;
+    
+}
+.landing::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.353);
+    top: 0;
+}
+
+.landing p{
+    
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 200px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.landing a{
+    text-decoration: none;
+    cursor: pointer;
+    border:2px solid var(--main-color);
+    padding: 12px 25px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    background:none;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+margin-left: 610px;
+margin-top: -160px;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+margin-top: 150px;
+
+    
+}
+
+.section2 img{
+    width: 600px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(1, 2, 0, 0.059);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.section2 .text{
+margin-right:60px ;
+}
+.section2 .text p{
+font-size: 16px;
+line-height: 30px;
+}
+.section2 .text span{
+font-weight: bold;
+border-bottom: 4px solid var(--main-color);
+}
+
+.section2 .image{
+    object-fit: cover;
+}
+
+.testmonials h2{
+    margin: 100px 0 ;
+    text-align: center;
+    color: #a8a9ac;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+    
+}
+.card img{
+    max-width: 100%;
+    border-radius: 20%;
+    box-shadow: 5px 5px rgba(1, 2, 0, 0.222);
+    /*-webkit-border-radius: 50%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    */margin: 0 150px ;
+    -webkit-border-radius: 20%;
+}
+.card p{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: 'Fraunces', serif;
+}
+.card span:last-of-type{
+    color: #a8a9ac;
+    margin-top: -40px;    
+}
+.card{
+    border: none;
+    gap: 50px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--main-color);
+    color: #559c8c;
+    padding: 30px 0 0 0;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: 400;
+    padding: 40px 0;
+    
+
+}
+.footer .icons i{
+    margin-right: 20px;
+    padding: 40px 0;
+    color: white;
+}
